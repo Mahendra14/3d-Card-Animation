@@ -35,13 +35,13 @@ body {
   justify-content: center;
 }
 .sneaker img {
-  width: 20rem;
+  width: 15rem;
   z-index: 2;
   transition: all 0.75s ease-out;
 }
 .circle {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   background: linear-gradient(
     to right,
     rgba(245, 70, 66, 0.75),
@@ -53,11 +53,11 @@ body {
 }
 
 .info h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   transition: all 0.75s ease-out;
 }
 .info h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: 2rem 0rem;
   color: #585858;
   font-weight: lighter;
@@ -83,7 +83,8 @@ button.active {
   color: white;
 }
 .purchase {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   transition: all 0.75s ease-out;
 }
 .purchase button {
